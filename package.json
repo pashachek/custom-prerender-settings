@@ -1,0 +1,19 @@
+{
+  "name": "custom-prerender-settings",
+  "version": "1.0.0",
+  "description": "custom prerender settings",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "prerender": ">=5.16.0",
+    "prerender-level-cache": "pashachek/prerender-level-cache"
+  },
+  "engines": {
+    "node": "<15.0.0"
+  },
+  "scripts": {
+    "postinstall": "npm i -g lev2"
+  }
+}
