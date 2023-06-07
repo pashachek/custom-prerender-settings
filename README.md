@@ -18,3 +18,5 @@ and lastly:
 ```bash
 node server.js
 ```
+
+also, installation of [lev2](https://github.com/maxlath/lev2) is recommended (for debug purposes)
