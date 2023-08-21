@@ -7,7 +7,7 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "prerender": ">=5.16.0",
+    "prerender": "pashachek/prerender",
     "prerender-level-cache": "pashachek/prerender-level-cache"
   },
   "engines": {
