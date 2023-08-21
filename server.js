@@ -5,6 +5,7 @@ const forceRefresh = require('./plugins/forceRefresh');
 const levelCache = require('prerender-level-cache');
 
 process.env['BROWSER_FORCE_RESTART_PERIOD'] = 1800000;
+process.env['POST_IS_OFF'] = true;
 
 const server = prerender({
     chromeFlags: ['--no-sandbox', '--headless', '--disable-gpu', '--remote-debugging-port=9222', '--hide-scrollbars'],
