@@ -36,7 +36,7 @@ server.use({
 server.use(prerender.sendPrerenderHeader());
 server.use(prerender.browserForceRestart());
 // server.use(prerender.blockResources());
-server.use(prerender.blacklist());
+//server.use(prerender.blacklist());
 server.use(prerender.httpHeaders());
 
 server.use(removeScriptTags);
